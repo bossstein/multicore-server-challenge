@@ -1,5 +1,7 @@
-mkdir -p /usr/local/nginx ;
-mkdir -p /usr/local/nginx/conf ;
+mkdir -p /usr/share/nginx ;
 
-rm -f /usr/local/nginx/conf/nginx.conf ;
-cp nginx.conf /usr/local/nginx/conf/nginx.conf ;
+rm -f /usr/share/nginx/nginx.conf ;
+cp nginx.conf /usr/share/nginx/nginx.conf ;
+
+rm -f main
+/usr/local/go/bin/go build main.go
