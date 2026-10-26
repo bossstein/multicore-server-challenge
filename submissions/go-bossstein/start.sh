@@ -1,4 +1,5 @@
-sudo nginx -c nginx.conf
+sudo service nginx start
 sudo service nginx reload
+
 
 ./main
